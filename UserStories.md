@@ -1,6 +1,11 @@
+# User Stories
+They're currently in Portuguese.<br>
+English version soon.
+## Funcionalidades
+
 <details> 
 <summary>
-Funcionalidade: Tela Inicial
+Tela Inicial
 </summary>
 
 ### User Story
@@ -21,10 +26,10 @@ Funcionalidade: Tela Inicial
     E o mesmo possui arial label
 
 </details>
-
+<br>
 <details> 
 <summary>
-Funcionalidade: Adicionar itens
+Adicionar itens
 </summary>
 
 ### User Story
@@ -58,10 +63,10 @@ Funcionalidade: Adicionar itens
     Então deve ser exibido no input um icone para marcar todos
 
 </details>
-
+<br>
 <details> 
 <summary>
-Funcionalidade: Validar Filtro - Todos
+Validar Filtro - Todos
 </summary>
 
 ### User Story
@@ -88,10 +93,10 @@ Funcionalidade: Validar Filtro - Todos
     Então o contador de itens restantes deve ser igual ao número de tarefas a serem realizadas
 
 </details>
-
+<br>
 <details> 
 <summary>
-Funcionalidade: Validar Filtro - Ativos
+Validar Filtro - Ativos
 </summary>
 
 ### User Story
@@ -115,10 +120,10 @@ Funcionalidade: Validar Filtro - Ativos
     E o contador deve possuir o mesmo número de itens abertos da lista
 
 </details>
-
+<br>
 <details> 
 <summary>
-Funcionalidade: Validar Filtro - Concluidos
+Validar Filtro - Concluidos
 </summary>
 
 ### User Story
@@ -138,10 +143,10 @@ Funcionalidade: Validar Filtro - Concluidos
     E o contador deve possuir o mesmo número de itens em aberto da lista
 
 </details>
-
+<br>
 <details> 
 <summary>
-Funcionalidade: Conclusão de itens - unitária
+Conclusão de itens - unitária
 </summary>
 
 ### User Story
@@ -163,10 +168,10 @@ Funcionalidade: Conclusão de itens - unitária
     E ela deve deixar de contar no contador de itens
 
 </details>
-
+<br>
 <details> 
 <summary>
-Funcionalidade: Conclusão de itens - todos
+Conclusão de itens - todos
 </summary>
 
 ### User Story
@@ -188,10 +193,10 @@ Funcionalidade: Conclusão de itens - todos
     E o contador de itens deverá ficar zerado
 
 </details>
-
+<br>
 <details> 
 <summary>
-Funcionalidade: Limpar itens concluídos
+Limpar itens concluídos
 </summary>
 
 ### User Story
