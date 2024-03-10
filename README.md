@@ -14,7 +14,7 @@ You can find more about the UserStories in the <a href="/UserStories.md">UserSto
 
 # Test Plan
 The test plan was developed in a spreadsheet.<br>
-You can find more about them in the <a href="/Test Plan - TodoMVC.xlsx">Test Plan - TodoMVC.xlsx</a>.
+You can find more about them in the <a href="/Test Plan/Test Plan 001- TodoMVC.xlsx">Test Plan - TodoMVC.xlsx</a>.
 
 # Automated Tests
 The automated tests are going to be developed in Cypress.<br>
