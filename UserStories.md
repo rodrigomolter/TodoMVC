@@ -1,6 +1,6 @@
 # User Stories
-They're currently in Portuguese.<br>
-English version soon.
+>[!IMPORTANT]
+> This project is currently written in Portuguese. English version will be devloped soon.
 ## Funcionalidades
 
 <details> 
