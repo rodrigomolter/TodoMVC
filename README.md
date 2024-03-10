@@ -10,11 +10,11 @@ In this particullar case, I will use the <a href="https://todomvc.com/examples/r
 > This project is currently written in Portuguese. English version will be devloped soon.
 
 # User Stories
-You can find more about them in the <a href="/TodoMVC/blob/main/UserStories.md">UserStories.md</a>.
+You can find more about them in the <a href="/UserStories.md">UserStories.md</a>.
 
 # Test Plan
 The test plan was developed in a spreadsheet.<br>
-You can find more about them in the <a href="/TodoMVC/Test Plan - TodoMVC.xlsx">Test Plan - TodoMVC.xlsx</a>.
+You can find more about them in the <a href="/Test Plan - TodoMVC.xlsx">Test Plan - TodoMVC.xlsx</a>.
 
 # Automated Tests
 The automated tests are going to be developed in Cypress.<br>
