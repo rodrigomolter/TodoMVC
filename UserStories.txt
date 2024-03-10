@@ -123,7 +123,7 @@ Critérios de Aceite
 
 ########################################################################################################
 
-Funcionalidade: Conclusão de itens - em lotes
+Funcionalidade: Conclusão de itens - todos
 
 User Story
     Eu como usuário da aplicação
@@ -142,7 +142,7 @@ Critérios de Aceite
 
 ########################################################################################################
 
-Funcionalidade: Limpar itens finalizados
+Funcionalidade: Limpar itens concluídos
 
 User Story
     Eu como usuário da aplicação
