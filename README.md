@@ -18,5 +18,5 @@ You can find more about them in the <a href="/Test Plan - TodoMVC.xlsx">Test Pla
 
 # Automated Tests
 The automated tests are going to be developed in Cypress.<br>
-The developed has not yet started.<br>
+The development has not yet started.<br>
 Checkout later to find more about it.
