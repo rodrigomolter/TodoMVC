@@ -1,0 +1,22 @@
+{
+  "name": "todomvc",
+  "version": "1.0.0",
+  "description": "In this project I will cover the test scenarios, test cases for the [TodoMVC](https://todomvc.com).<br> The tests executions can be executed manually but some of them will also be automated.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "cypress": "^13.7.1",
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-cypress": "^2.15.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
