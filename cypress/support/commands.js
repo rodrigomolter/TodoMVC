@@ -1,25 +1,45 @@
-// ***********************************************
-// This example commands.js shows you how to
-// create various custom commands and overwrite
-// existing commands.
-//
-// For more comprehensive examples of custom
-// commands please read more here:
-// https://on.cypress.io/custom-commands
-// ***********************************************
-//
-//
-// -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
-//
-//
-// -- This is a child command --
-// Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
-//
-//
-// -- This is a dual command --
-// Cypress.Commands.add('dismiss', { prevSubject: 'optional'}, (subject, options) => { ... })
-//
-//
-// -- This will overwrite an existing command --
-// Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+import { faker } from '@faker-js/faker/locale/en'
+
+Cypress.Commands.add('createNewTaskbyGUI', task => {
+  task = task || faker.word.words({ count: { min: 2, max: 5 }})
+  cy.get('input[data-testid=text-input]')
+    .as('input')
+    .should('be.visible')
+
+  cy.get('@input')
+    .type(`${task}{enter}`)
+})
+
+Cypress.Commands.add('createDefaultTaskList', () => {
+
+  Cypress._.times(4, () => cy.createNewTaskbyGUI())
+
+  cy.get('[data-testid=todo-list]')
+    .should('be.visible')
+    .find('li')
+    .as('taskList')
+
+  cy.get('@taskList')
+    .its('length')
+    .should('equal', 4)
+
+  cy.get('@taskList')
+    .eq(1)
+    .find('[data-testid=todo-item-toggle]')
+    .check()
+
+  cy.get('@taskList')
+    .eq(2)
+    .find('[data-testid=todo-item-toggle]')
+    .check()
+
+  cy.get('@taskList')
+    .eq(0)
+    .find('[data-testid=todo-item-toggle]')
+    .should('not.be.checked')
+
+  cy.get('@taskList')
+    .eq(3)
+    .find('[data-testid=todo-item-toggle]')
+    .should('not.be.checked')
+})

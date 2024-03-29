@@ -4,7 +4,12 @@
   "description": "In this project I will cover the test scenarios, test cases for the [TodoMVC](https://todomvc.com).<br> The tests executions can be executed manually but some of them will also be automated.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:open": "cypress open",
+    "cy:open:tablet": "cypress open --config viewportWidth=767,viewportHeight=480",
+    "test": "cypress run",
+    "test:tablet": "cypress run --config viewportWidth=767,viewportHeight=480",
+    "lint": "eslint cypress/**/*.js && eslint cypress.config.js",
+    "lint:fix": "eslint cypress/**/*.js --fix && eslint cypress.config.js --fix"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +17,7 @@
   "devDependencies": {
     "@faker-js/faker": "^8.4.1",
     "cypress": "^13.7.1",
+    "cypress-real-events": "^1.12.0",
     "eslint": "^8.57.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-cypress": "^2.15.1",
