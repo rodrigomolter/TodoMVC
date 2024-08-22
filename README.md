@@ -13,7 +13,7 @@ All the User Stories are described in the [User Stories page](https://dynamic-ke
 
 ## Test Plan 👨‍🔬
 The detailed **Test Plan** you can find in the Notion page
-[TodoMVC Test Plan](https://dynamic-keeper-66c.notion.site/TodoMVC-32d7b72188dd445180511f338a19462c)
+[TodoMVC Test Plan](https://molter.notion.site/TodoMVC-32d7b72188dd445180511f338a19462c)
 
 # Automated Tests with Cypress 🚀
 
